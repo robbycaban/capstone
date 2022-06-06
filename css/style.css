@@ -10,8 +10,8 @@
 :root{
 	--bg-color: #ffffff;
 	--text-color: #000;
-	--secound-color: #9da8ab;
-	--main-color: #2363f7;
+	--secound-color: #011216;
+	--main-color: #2338f7;
 	--big-font: 5rem;
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
@@ -96,7 +96,7 @@ section{
 	min-height: 100vh;
 	height: 100%;
 	width: 100%;
-	background: url(../img/background.jpg);
+	background: url(../img/LightBinary.png);
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -121,8 +121,9 @@ span{
 }
 .home-text h3{
 	color: var(--main-color);
-	font-size: 20px;
-	font-weight: 500;
+	font-size: 40px; 
+	font-weight: 500; 
+	font-style: italic;
 }
 .home-text p{
 	font-size: var(--p-font);
@@ -420,7 +421,7 @@ header.sticky{
 	justify-content: center;
 	text-align: center;
 	border-radius: 12px;
-	background-image: url(../img/intro.png);
+	background-image: url(../img/LightBinary.png);
 	background-size: cover;
 }
 .center h3{
